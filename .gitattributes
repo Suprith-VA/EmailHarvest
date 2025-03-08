@@ -1,0 +1,19 @@
+*.js linguist-language=JavaScript
+*.jsx linguist-language=JavaScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+*.py linguist-language=Python
+*.rb linguist-language=Ruby
+*.php linguist-language=PHP
+*.java linguist-language=Java
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
+# To mark files as documentation
+docs/* linguist-documentation=true
+
+# To exclude files from language statistics
+*.css linguist-vendored
+*.scss linguist-vendored
+vendor/* linguist-vendored
+node_modules/* linguist-vendored 
